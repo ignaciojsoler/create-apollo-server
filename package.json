@@ -1,0 +1,46 @@
+{
+  "name": "create-apollo-api",
+  "version": "1.0.0",
+  "description": "CLI tool to quickly set up an Apollo GraphQL server with TypeScript or JavaScript",
+  "type": "module",
+  "bin": {
+    "create-apollo-api": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch bin/index.ts",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "server",
+    "cli",
+    "scaffold",
+    "generator"
+  ],
+  "author": "Ignacio Soler",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciosoler/create-apollo-api.git"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/prompts": "^2.4.9",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
