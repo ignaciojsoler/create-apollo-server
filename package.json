@@ -1,6 +1,6 @@
 {
   "name": "create-apollo-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to quickly set up an Apollo GraphQL server with TypeScript or JavaScript",
   "type": "module",
   "bin": {
