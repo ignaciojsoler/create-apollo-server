@@ -31,7 +31,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ignaciosoler/create-apollo-api.git"
+    "url": "git+https://github.com/ignaciojsoler/create-apollo-api.git"
   },
   "dependencies": {
     "commander": "^11.1.0",
